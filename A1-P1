@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <img src="logo.jpg">
+        <br>
+        <audio controls>
+            <source src="Katze IT Services Testimonial.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <video controls>
+            <source src="ST. JOSEPH CHAMINADE ACADEMY.mp4" type="video/mp4">
+        </video>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3vjRxlG1EJA?si=k9VWaOdlN_YAAUvu"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+</body>
+
+</html>
