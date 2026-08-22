@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> My doctor's appointment</h1>
+    <p>Fill in the form below to book your appointment:</p>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>Your name:</label> <input type="text" id="uname"><br><br>
+            <label>Patient ID:</label> <input type="number" id="pid"><br><br>
+            <label>Date of birth:</label> <input type="date" id="dob"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Your Visit Details</legend>
+            <label>Choose your doctor:</label>
+            <select id="doctor">
+                <option value="">--Select a doctor--</option>
+                <option value="dr-smith">Dr. Smith General</option>
+                <option value="dr-jones">Dr. Jones Pediatrics</option>
+                <option value="dr-brown">Dr. Brown Dermatology</option>
+            </select><br><br>
+            <label>Why are you visiting:</label>
+            <input type="radio" name="vis">Fever<br>
+            <input type="radio" name="vis">Cold<br>
+            <input type="radio" name="vis">Checkup<br>
+            <input type="radio" name="vis">Tooth pain<br>
+            <label>Any notes for the doctor:</label> <textarea id="notes" rows="3" cols="30"></textarea><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Preferred Visit day</legend>
+            <input type="checkbox" value="mon">Monday<br>
+            <input type="checkbox" value="tue">Tuesday<br>
+            <input type="checkbox" value="fri">Friday<br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Book my Appointment">
+    </form>
+</body>
+
+</html>
