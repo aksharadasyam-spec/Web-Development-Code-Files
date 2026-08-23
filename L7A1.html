@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Colour Card</title>
+</head>
+
+<body>
+    <style>
+        /* CSS for the colour card */
+        .colour-card {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        /* Add hover effect */
+        .colour-card:hover {
+            transform: scale(1.1);
+        }
+
+        /* CSS for the colour name */
+        .colour-name {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        h1 {
+            color: blueviolet;
+        }
+
+        h2 {
+            color: darkslategray;
+        }
+
+        p {
+            color: deeppink;
+        }
+
+        /* Class Selector */
+        .my-details {
+            color: firebrick;
+            font-weight: bold;
+        }
+
+        /* ID Selector */
+        #my-card {
+            background-color: lawngreen;
+            font-style: italic;
+        }
+    </style>
+    </head>
+
+    <body>
+        <h1>My Colour Card</h1>
+        <p class="my-details">This is a simple colour card created using HTML and CSS.</p>
+        <div class="colour-card" id="my-card">
+            <div class="colour-name">Lawn Green</div>
+        </div>
+        <div id="my-card">
+            <h2>About Me</h2>
+            <p class="my-details">I am a web developer with a passion for creating visually appealing and user-friendly
+                websites. I enjoy experimenting with different colours and designs to enhance the user experience.</p>
+        </div>
+        <h2>My Favourite Colours</h2>
+        <p>
+        <ul>
+            <li>Blue</li>
+            <li>Green</li>
+            <li>Purple</li>
+            <li>Pink</li>
+        </ul>
+        </p>
+    </body>
+
+</html>
