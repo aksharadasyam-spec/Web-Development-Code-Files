@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+}
+
+.hero-name {
+    font-size: 30px;
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 5px #1C39BB
+}
+
+.tagline {
+    font-size: 10px;
+    color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.label {
+    font-size: 15px;
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.power {
+    font-size: 15px;
+    color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.weakness {
+    font-size: 14px;
+    color: darkred;
+    text-decoration: line-through;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.badge {
+    transform: rotate(10deg);
+    font-size: 60px;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.made-by {
+    font-size: 40px;
+    color: darkblue;
+}
