@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .profile-card {
+            width: 450px;
+            height: 200px;
+            background-color: lightgreen;
+            margin: 30px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 8px forestgreen;
+            padding: 35px;
+        }
+
+        .h1 {
+            background-color: darkgreen;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .form {
+            background-color: forestgreen;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 23px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <h1>Create a Student Profile card.</h1>
+        <p>Hi, I am Akshara Dasyam. This is my student profile card with name, grade, school, and subject details.</p>
+    </div>
+    <form class="form">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>Name:</label> <input type="text" id="user_name"><br><br>
+            <label>Grade:</label> <input type="number" id="grade"><br><br>
+            <label>School:</label> <input type="text" id="school"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Your School Subject Details</legend>
+            <label>Choose your subject:</label>
+            <select id="subject">
+                <option value="">Select a subject</option>
+                <option value="maths">Mathematics</option>
+                <option value="physics">Physics</option>
+                <option value="Art and Craft">Art and Craft</option>
+                <option value="biology">Biology</option>
+                <option value="english language">English Language</option>
+                <option value="General Knowledge">General Knowledge</option>
+            </select><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Your School Outdoor Hobbies Details</legend>
+            <label>Choose your Outdoor hobby</label>
+            <select id="hobby">
+                <option value="">Select your hobby</option>
+                <option value="Football">Football</option>
+                <option value="Cricket">Cricket</option>
+                <option value="Athletics">Athletics</option>
+                <option value="Kabbadi">Kabbadi</option>
+                <option value="Kho-Kho">Kho-Kho</option>
+            </select><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Your School Indoor Hobbies Details</legend>
+            <label>Choose your hobby</label>
+            <select id="hobby">
+                <option value="">Select your Indoor hobby</option>
+                <option value="Chess">Chess</option>
+                <option value="Carrom">Carrom</option>
+                <option value="Table_Tennis">Table_Tennis</option>
+                <option value="Ping_Pong">Ping_Pong</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Create my Profile">
+    </form>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
