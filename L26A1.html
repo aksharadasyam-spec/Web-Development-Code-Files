@@ -62,6 +62,41 @@
             </div>
         </div>
     </div>
+    <script>
+        var sen = "The dragon flew over the big castle.";
+        function checkTypes() {
+            document.getElementById("typeResult").innerHTML =
+                "score 42 - type: " + typeof 42 + "\n" +
+                "Name 'Alex' - type:" + typeof "Alex" + "\n" +
+                "Game over true - type: " + typeof true;
+        }
+        function toStr() {
+            var v = document.getElementById("numIn").value;
+            document.getElementById("convResult").innerHTML =
+                "String('" + v + "') = " + String(v) + " - now it is a: " + typeof String(v);
+        }
+        function toNum() {
+            var v = document.getElementById("numIn").value;
+            document.getElementById("convResult").innerHTML =
+                "Number('" + v + "') = " + Number(v) + " - now it is a: " + typeof Number(v);
+        }
+        function doSearch() {
+            var w = document.getElementById("findW").value;
+            var p = sen.search(w);
+            document.getElementById("srResult").innerHTML = p === -1 ? "'" + w + "' is not in the sentence - try another word!" : "Found '" + w + "' hiding at position: " + p + "!";
+        }
+        function doReplace() {
+            var v = document.getElementById("findW").value;
+            document.getElementById("srResult").innerHTML =
+                "New sentence: " + sen.replace(w, document.getElementById("swapW").value);
+        }
+        function trySafe() {
+            try {
+                var n = document.getElementById("divIn").value;
+                if (n === "" || isNaN(n)) { throw "That is not a number - you caught the error!"; }
+                document.getElementById("errResult").innerHTML = "100 / " + n + " = "
+            }
+    </script>
 </body>
 
 </html>
