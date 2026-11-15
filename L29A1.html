@@ -9,29 +9,28 @@
 
 <body>
     <script>
-        var choice = prompt("Welcome to area Calculator. \n Please Enter your Choice. \n1.Area of Rectangle. \n2.area of Circle. \n3.Area if the Circle. \n4.Area of the Parallelogram.");
+        var choice = prompt("Welcome to area Calculator. \n Please Enter your Choice. \n1.Perimeter of Rectangle. \n2.Perimeter of Eqilateral Triangle. \n3.Perimeter of the Circle. \n4.Perimeter of the Parallelogram.");
         if (choice == '1') {
             var l = prompt('Enter the Length')
             var b = prompt('Enter the Breadth')
-            var result = Number(l) * Number(b)
-            alert('The area is ' + result)
+            var result = 2 * (Number(l) + Number(b))
+            alert('The Perimeter is ' + result)
         }
         if (choice == '2') {
-            var h = prompt('Enter the height')
-            var b = prompt('Enter the base')
-            var result = Number(h) * Number(b) / 2
-            alert('The Area is ' + result)
+            var a = prompt('Enter the side')
+            var result = 3 * Number(a)
+            alert('The Perimeter is ' + result)
         }
         if (choice == '3') {
             var r = prompt('Enter the radius')
-            var result = 3.14 * Number(r) * Number(r)
-            alert('The Area is ' + result)
+            var result = 2 * 3.14 * Number(r)
+            alert('The Perimeter is ' + result)
         }
         if (choice == '4') {
             var h = prompt('Enter the height')
             var cb = prompt('Enter the corresponding base')
-            var result = Number(h) * Number(cb)
-            alert('The Area is ' + result)
+            var result = 2 * (Number(h) + Number(cb))
+            alert('The Perimeter is ' + result)
         }
     </script>
 </body>
