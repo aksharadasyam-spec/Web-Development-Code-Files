@@ -94,8 +94,11 @@
             try {
                 var n = document.getElementById("divIn").value;
                 if (n === "" || isNaN(n)) { throw "That is not a number - you caught the error!"; }
-                document.getElementById("errResult").innerHTML = "100 / " + n + " = "
+                document.getElementById("errResult").innerHTML = "100 / " + n + " = " + (100 / Number(n)) + " - well done!";
+            } catch (err) {
+                document.getElementById("errResult").innerHTML = "Error caught: " + err;
             }
+        }
     </script>
 </body>
 
